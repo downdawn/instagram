@@ -9,7 +9,7 @@ from hashlib import md5
 
 headers = {
     "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
-    "cookie": 'ig_cb=1; mid=XD7eWQALAAEc-gL4Q1auYWtvlv8r; mcd=3; fbm_124024574287414=base_domain=.instagram.com; fbsr_124024574287414=mHhBH38ehfRC9RX9pi2Y_52g0jEWiooXXbkjQKaf2uI.eyJhbGdvcml0aG0iOiJITUFDLVNIQTI1NiIsImNvZGUiOiJBUUJmSEZfLUk5T1NrV3JsczZLT3JXT0JlelpCcGI1OFlRZHZzOXhxWlVqd2NTVmVuWXA0RF9NRXB1dDVGR2hYdHM2VXFQNzFwc0ZuWTBlM2ZIT051MVUtM0NpQ3R1SG80S2RFQTVFeGdFTjhTVnVjN29CSHFVM3c3YnFGQjZ1dFRSX09feUxDTU41dGExdTltSXp3cklTQURqOWdFOGZnYzY3NjhwQzZOem9qb0kycENQUFg1aXBNQWZEcjVaZ2hac0lxV09Yb19SUm54QVZsUnBkdUtIVUFTbXMzNi0yQUNyVDZmNHprdWVoR1RRWlVfYnhaR0dieF83Wkkwbk9NTXNwMVBEOFBDWUhMRC1oVDgzV0dTNmF3S2Fmd0hybFJUdWxHYWg4NW9wWXB1Y2I2LXRSNTI0ZndsSWZydGk3dnYtZnk1SGg2b1Y2ZFY0Ynh4OEpESjNYaUNvZ2NwMW5HT1RMcE9xODZINXhiN1EiLCJpc3N1ZWRfYXQiOjE1NDgxMjg4MzcsInVzZXJfaWQiOiIxMDAwMzA5OTY0NjExMzIifQ; csrftoken=Q4MDODjqV08TrzaJwOD5a5iMc75UVnlF; ds_user_id=10446622721; sessionid=10446622721%3AGrqMccUIgMoAWx%3A4; rur=FRC; urlgen="{\"185.201.227.104\": 136593}:1glnZp:QTngEcCWEQUmIWP6ElslfFAvbPY"',
+    "cookie": '',  # 换成你自己的cookie
 }
 
 url = "https://www.instagram.com/graphql/query/?"
@@ -118,4 +118,3 @@ def main(blogger_name):
 if __name__ == '__main__':
     blogger_name = str(input("请输入博主名称："))
     main(blogger_name)
-    # main('b_b_j.j')
